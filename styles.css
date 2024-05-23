@@ -101,6 +101,7 @@ nav {
 
 .nav__logo img {
   max-width: 40px;
+  margin-bottom: 8px;
 }
 
 .nav__logo span {
@@ -973,3 +974,7 @@ background-size:100%;
 
 /*************footer End*****************/
 
+.image-circle{
+  width: 90px;
+  height: 90px;
+}
