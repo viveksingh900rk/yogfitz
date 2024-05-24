@@ -146,6 +146,7 @@ header::before {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  margin-top: -70px;
 }
 
 .header__content {
