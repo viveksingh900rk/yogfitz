@@ -18,8 +18,8 @@ img{
     max-width: 1480px;
 }
 body .btn-primary {
-    background-color: #e73a3e !important;
-    border-color: #e73a3e;
+    background-color: #4220ce !important;
+    color: var(--white);
     padding: 10px 40px;
     font-size: 16px;
 
@@ -36,8 +36,8 @@ body .btn-primary::after{
     top: 0;
     width: 0;
     height: 100%;
-    background-color: #111;
-    border-color: #111;
+    background-color: #149279 !important;
+    border-color: #149279 !important;
 
     z-index: -1;
     transition: .3s;

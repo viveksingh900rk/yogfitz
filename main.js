@@ -82,3 +82,12 @@ ScrollReveal().reveal(".photos__card", {
   duration: 1000,
   interval: 500,
 });
+
+
+$(function () {
+  $("#includedNavbar").load("navbar.html");
+});
+
+$(function () {
+  $("#includedContent").load("footer.html");
+});
