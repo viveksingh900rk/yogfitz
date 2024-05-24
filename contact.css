@@ -138,7 +138,6 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -381,4 +380,24 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+}
+
+
+.font-style-contact-new{
+  font-family: emoji;
+  font-size: 38px !important;
+  color: #149279 !important
+}
+
+
+.alink-contact{
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: #149279 !important;
+  border-radius: 5rem;
+  cursor: pointer;
+  text-decoration: none;
 }
