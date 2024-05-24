@@ -89,7 +89,7 @@ form {
 
 .input-container {
   position: relative;
-  margin: 1rem 0;
+  margin: 1rem 1rem;
 }
 
 .input {
@@ -336,7 +336,7 @@ textarea.input {
 
 @media (max-width: 480px) {
   .container {
-    padding: 1.5rem;
+    padding: 0.5rem;
   }
 
   .contact-info:before {
@@ -350,7 +350,7 @@ textarea.input {
 
   form,
   .contact-info {
-    padding: 1.7rem 1.6rem;
+    padding: 1.7rem 0.6rem;
   }
 
   .text,
@@ -380,6 +380,13 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+  .alink-contact{
+    margin-right: 70%;
+  }
+  .alink-contact:hover{
+    background-color: #149279 !important;
+    color: white;
+  }
 }
 
 
@@ -400,4 +407,12 @@ textarea.input {
   border-radius: 5rem;
   cursor: pointer;
   text-decoration: none;
+}
+.alink-contact:hover{
+  background-color: #149279 !important;
+  color: white;
+}
+
+.footer-contact{
+  background-color: #1abc9c;
 }
