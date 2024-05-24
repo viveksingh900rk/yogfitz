@@ -47,8 +47,6 @@ body .btn-primary:hover::after{
 }
 
 /* Menu */
-ul.our-primary-menu{}
-ul.our-primary-menu li{}
 ul.our-primary-menu li a{
     text-decoration: none;
     display: inline-block;
@@ -56,7 +54,6 @@ ul.our-primary-menu li a{
     color: #111;
     font-weight: 500;
 }
-ul.our-primary-menu li a:hover{}
 
 /*  DropDown Menu CSS  */
 ul.our-primary-menu li{
@@ -85,9 +82,6 @@ ul.our-primary-menu li:hover ul{
     top: 120%;
 }
 
-ul.our-primary-menu li ul li a{}
-
-.header-info{}
 .header-search {
     width: 60px;
     font-size: 22px;
@@ -111,7 +105,6 @@ ul.our-primary-menu li ul li a{}
     text-decoration: none;
     font-size: 18px;
 }
-.header-button{}
 
 /*  Slider / Banner CSS  */
 .slider-section{
@@ -149,7 +142,6 @@ ul.our-primary-menu li ul li a{}
     list-style: none;
     padding-left: 0;
 }
-.header-social ul li{}
 .header-social ul li span {
 	font-size: 18px;
 	display: inline-block;
@@ -177,7 +169,6 @@ ul.our-primary-menu li ul li a{}
 .logo-secton {
     border-bottom: 1px solid #ddd;
 }
-.client-logo{}
 .client-logo ul{
     list-style: none;
     padding-left: 0;
@@ -202,11 +193,6 @@ ul.our-primary-menu li ul li a{}
     align-items: center;
     justify-content: center;
 }
-.about-img-text h2{}
-.about-img-text p{}
-
-
-.about-text{}
 .finix-text h6 {
     color: #e63b3d;
     font-weight: 400;
@@ -291,10 +277,6 @@ ul.our-primary-menu li ul li a{}
 .mtop4{
     margin-top: -30px;
 }
-.ft-icon{}
-.ft-icon h3{}
-.ft-icon p{}
-
 .finix-text{
     position: relative;
 }
@@ -340,13 +322,11 @@ ul.our-primary-menu li ul li a{}
 
 /*  Applay Now Section  */
 /*  Part 4, Class  */
-.applay-now-section{}
 .applay-now-left-test{
     margin-top: 60px;
 }
 
 
-.step-timeline{}
 .step-timeline ul {
     list-style: none;
     position: relative;
@@ -391,7 +371,6 @@ ul.our-primary-menu li ul li a{}
     background-color: #fdebeb;
     padding: 50px;
 }
-.calculate-rate .finix-text{}
 .calculate-rate .finix-text h6{
     color: #606060;
 }
@@ -432,7 +411,6 @@ ul.our-primary-menu li ul li a{}
     padding-bottom: 40px;
     border-radius: 6px;
 }
-.call-to-action-phone{}
 .call-to-action-phone span {
 	display: inline-block;
 	width: 60px;
@@ -457,7 +435,6 @@ ul.our-primary-menu li ul li a{}
 
 
 /*  Our Comapny Values Section  */
-.company-values-text{}
 .values-item {
     margin-bottom: 10px;
 }
@@ -466,8 +443,6 @@ ul.our-primary-menu li ul li a{}
     color: #e73a3e;
     margin-right: 30px;
 }
-.value-texts{}
-.value-texts h3{}
 .value-texts p{
     color: #606060;
 }
@@ -491,9 +466,6 @@ ul.our-primary-menu li ul li a{}
 .services-tab-item li a.active{
     position: relative;
 }
-.services-tab-item li a.active::after{
-
-}
 .services-tab-item li a span i {
     background: #fff;
     height: 80px;
@@ -508,8 +480,6 @@ ul.our-primary-menu li ul li a{}
     font-weight: 600;
     font-size: 20px;
 }
-
-.serives-tab-content-text{}
 .serives-tab-content-text ul{
     list-style: none;
     padding-left: 0;
@@ -528,24 +498,14 @@ ul.our-primary-menu li ul li a{}
 }
 
 /*  part 7  */
-.tesntimonial-section{}
-.testimonial-content{}
 .testimonial-content p {
     font-size: 23px;
 }
-.client-details{}
 .client-details h5 {
     color: #e73a3e;
     margin-bottom: 0;
 }
-.client-details p{}
-
-.testimonial-iamge{}
-.testimonial-iamge img{}
-
-
 /*  Team mberber section  */
-.team-member{}
 .member-image{
     position: relative;
 }
@@ -623,8 +583,6 @@ ul.our-primary-menu li ul li a{}
 /*  Day 33, Part 8  */
 /*  Blog Section  */
 
-.blog-item{}
-.blog-thubnail{}
 .blog-thubnail img{
     max-width: 100%;
 }
@@ -680,7 +638,6 @@ ul.our-primary-menu li ul li a{}
 }
 
 /*  Footer Social  */
-.widget-social{}
 .widget-social ul{
     display: flex;
 }
@@ -703,7 +660,6 @@ ul.our-primary-menu li ul li a{}
     margin-bottom: 0;
 }
 
-.footer-contact{}
 .footer-contact-item {
     margin-bottom: 20px;
 }
@@ -712,7 +668,10 @@ ul.our-primary-menu li ul li a{}
     margin-right: 15px;
     font-size: 20px;
 }
-.footer-contact-item span i{}
 .footer-contact-item a {
     text-decoration: none;
+}
+.header-button .btn-success {
+    background-color: #149279 !important;
+    border-color: #149279 !important;
 }
