@@ -218,15 +218,20 @@
     </div>
   </section>
 
-
   <script>
-    if (window.innerWidth > 768) {
-      let parentTagRemove = document.getElementById('screensize');
-      parentTagRemove.style.display = 'none';
-    } else {
-      let parentTagRemove = document.getElementById('screensizebig');
-      parentTagRemove.style.display = 'none';
-    }
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.innerWidth > 768) {
+        let parentTagRemove = document.getElementById('screensize');
+        if (parentTagRemove) {
+          parentTagRemove.style.display = 'none';
+        }
+      } else {
+        let parentTagRemove = document.getElementById('screensizebig');
+        if (parentTagRemove) {
+          parentTagRemove.style.display = 'none';
+        }
+      }
+    });
   </script>
 </body>
 
