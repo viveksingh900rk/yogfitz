@@ -261,7 +261,7 @@ ul.our-primary-menu li:hover ul{
     z-index: 1;
 }
 .features-item .ft-icon i {
-	color: #e73c3e;
+	color: #4220ce;
 	font-size: 32px;
 	background: #fff;
 	height: 90px;
@@ -272,7 +272,7 @@ ul.our-primary-menu li:hover ul{
 }
 .features-item:hover .ft-icon i{
     color: #fff;
-    background: #e73c3e;
+    background: green;
 }
 .mtop4{
     margin-top: -30px;
@@ -288,7 +288,7 @@ ul.our-primary-menu li:hover ul{
 	font-size: 60px;
 	text-align: center;
 	line-height: 90px;
-	color: #e73a3e;
+	color: #4220ce;
 	border-radius: 50%;
 	position: absolute;
 	right: 41%;
