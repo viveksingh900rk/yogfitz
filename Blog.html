@@ -162,23 +162,18 @@
 
   <section class="posts" id="posts">
     <div class="section__container posts__container">
-      <p class="section__subheader">BLOG</p>
-      <h2 class="section__header">Recent Posts</h2>
+      <h2 class="section__header">BLOGS</h2>
       <div class="posts__grid">
         <div class="posts__card">
           <img src="assets/posts-1.jpg" alt="post" />
           <div class="posts__content">
             <div class="posts__date">
-              <span>31</span>
-              <div>
-                <p>2021</p>
-                <p>December</p>
-              </div>
+              
             </div>
-            <h4>Unlocking Inner Peace</h4>
+            <h4>Balance your mind and body</h4>
             <p>
-              Dive into the practices that help you cultivate inner peace,
-              reduce stress, and enhance your overall well-being.
+              Specific breathing exercises can calm the mind and energize the body. 
+              Techniques like diaphragmatic breathing or alternate nostril breathing can be a good place to start. Controlled breathwork has been proven to help with emotional regulation, improved concentration, and enhanced physical stamina.
             </p>
           </div>
         </div>
@@ -186,16 +181,13 @@
           <img src="assets/posts-2.jpg" alt="post" />
           <div class="posts__content">
             <div class="posts__date">
-              <span>25</span>
-              <div>
-                <p>2022</p>
-                <p>March</p>
-              </div>
+              
             </div>
-            <h4>From Desk to Mat</h4>
+            <h4>Reduces stress and anxiety</h4>
             <p>
-              Learn incorporating simple yoga stretches and breathing
-              techniques to counter effects of sedentary lifestyle.
+              Studies suggest exercise increases production of neurotransmitters in the brain,
+              like dopamine and endorphins, which help you feel more relaxed.
+              And it can also decrease stress hormone levels like cortisol and adrenaline.
             </p>
           </div>
         </div>
@@ -203,26 +195,82 @@
           <img src="assets/posts-3.jpg" alt="post" />
           <div class="posts__content">
             <div class="posts__date">
-              <span>06</span>
-              <div>
-                <p>2022</p>
-                <p>August</p>
-              </div>
             </div>
-            <h4>Yoga Through the Ages</h4>
+            <h4>Improves flexibility</h4>
             <p>
-              From prenatal yoga to gentle senior yoga, discover enhance
-              flexibility and foster a lifelong love for well-being.
+              Yoga poses work by stretching your muscles.
+              They can help you move better and feel less stiff or tired.
+              The regular practice of yoga enhances the overall health and flexibility of our bodies. 
+              flexibility through the various poses that are performed in yoga designed to stretch the muscles, 
+              making the body limber
+            </p>
+          </div>
+        </div>
+        <div class="posts__card">
+          <img src="assets/preternalYoga.jpeg" alt="post" />
+          <div class="posts__content">
+            <div class="posts__date">
+            </div>
+            <h4>Prenatal Yoga</h4>
+            <p>
+              Prenatal yoga is designed for pregnant women. Through this yoga, one gets relief from problems occurring during pregnancy. It improves not only physical health but also mental health. Practicing this yoga for 30 minutes daily reduces lower back pain in women, improves the sleep cycle, and increases flexibility in the body.
+            </p>
+          </div>
+        </div>
+        <div class="posts__card">
+          <img src="assets/Heartd.webp" alt="post" />
+          <div class="posts__content">
+            <div class="posts__date">
+            </div>
+            <h4>The Role of Yoga in Cardiac Health</h4>
+            <p>
+              Yoga and relaxation have been successfully used to check high blood pressure and coronary artery disease. Yogic therapy not only reduces high blood pressure, but also reduces serum cholesterol, triglycerides, free fatty acids, blood glucose, and body weight. Yogic practise also improves physical fitness and helps to improve one’s efficiency. </p>
+          </div>
+        </div>
+        <div class="posts__card">
+          <img src="assets/anxietyDisorder.jpeg" alt="post" />
+          <div class="posts__content">
+            <div class="posts__date">
+            </div>
+            <h4>Yoga Therapy for Anxiety Disorders</h4>
+            <p>
+              Yoga is a natural way which is helpful to remove or overcome these deep rooted worries and fears. It is A mind - body connection. Yoga includes asana, breathing techniques and pranayama, meditation and relaxation techniques, used to counter the effects of stress and anxiety and is cost-effective and easy to implement
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <body>
-    <div id="includedContent"></div>
-  </body>
+  <html>
+    <head>
+      <script src="jquery.js"></script>
+      <script>
+        $(function () {
+          $("#includedContent").load("footer.html");
+        });
+      </script>
+    </head>
+    
+    <body>
+      <div id="includedContent"></div>
+    </body>
+    
+</html>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.innerWidth > 768) {
+        let parentTagRemove = document.getElementById('screensize');
+        if (parentTagRemove) {
+          parentTagRemove.style.display = 'none';
+        }
+      } else {
+        let parentTagRemove = document.getElementById('screensizebig');
+        if (parentTagRemove) {
+          parentTagRemove.style.display = 'none';
+        }
+      }
+    });
+  </script>
 
   <script src="footer.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
