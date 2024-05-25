@@ -301,7 +301,7 @@ header::before {
   margin-bottom: 1rem;
   font-size: 3.5rem;
   font-weight: 500;
-  color: var(--primary-color);
+  color: #61549b !important;
 }
 
 .membership__card h2 sup {
@@ -326,6 +326,18 @@ header::before {
   font-weight: 600;
   letter-spacing: 1px;
   border-radius: 2px;
+}
+
+.btn-membership {
+  text-decoration: auto;
+  padding: 10px 20px;
+  background-color: #4220ce !important;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .stories__grid {
