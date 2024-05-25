@@ -57,7 +57,8 @@
           <div class="header-search">
   
           </div>
-          <div class="header-call clearfix">
+          <div class="header-call clearfix"
+          style="margin-right: 50%;">
             <div class="header-call-icon float-left mr-3 h-100">
               <span> <i class="fas fa-phone-volume"></i> </span>
             </div>
@@ -67,7 +68,7 @@
             </div>
           </div>
           <div class="header-button">
-            <a href="Contact.html#contactform" class="btn-contact btn-primary-contact">Enroll Now</a>
+            <a href="Contact.html#contactform" class="btn-contact btn-primary-contact" style="margin-left: -120px;">Enroll Now</a>
           </div>
         </div>
   
@@ -149,7 +150,7 @@
           </div>
           <div class="information">
             <img src="img/phone.png" class="icon" alt="" />
-            <p>123-456-789</p>
+            <p>+91-6387622153</p>
           </div>
         </div>
 
@@ -170,7 +171,6 @@
         <span class="circle one"></span>
         <span class="circle two"></span>
 
-        <!-- <form action="index.html" > -->
         <form action="https://api.web3forms.com/submit" method="POST">
 
           <!-- Replace with your Access Key -->
@@ -190,6 +190,17 @@
             <input type="tel" name="phone" class="input" />
             <label for="">Phone</label>
             <span>Phone</span>
+          </div>
+          <div class="input-container">
+            <select name="batch_time" class="input" required>
+              <option value="">Select Batch Time</option>
+              <option value="Morning 6:00 AM - 7:00 AM">Morning 6:00 AM - 7:00 AM</option>
+              <option value="Morning 7:00 AM - 8:00 AM">Morning 7:00 AM - 8:00 AM</option>
+              <option value="Morning 8:00 AM - 9:00 AM">Morning 8:00 AM - 9:00 AM</option>
+              <option value="Evening 6:00 PM - 7:00 PM">Evening 6:00 PM - 7:00 PM</option>
+              <option value="Evening 7:00 PM - 8:00 PM">Evening 7:00 PM - 8:00 PM</option>
+              <option value="Evening 8:00 PM - 9:00 PM">Evening 8:00 PM - 9:00 PM</option>
+            </select>
           </div>
           <div class="input-container textarea">
             <textarea name="message" class="input"></textarea>
@@ -228,6 +239,8 @@
         document.querySelector('.header-button a').classList.add('btn-success');
     }
   </script>
+  
+  
 </body>
 
 </html>
