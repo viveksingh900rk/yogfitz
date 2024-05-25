@@ -25,6 +25,9 @@
 .video-gallery .featured-video .video-card {
     position: relative;
 }
+.video-height{
+    height: 9rem;
+}
 
 .video-gallery .featured-video .video-card .play-icon {
     position: absolute;
