@@ -380,9 +380,6 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
-  .alink-contact{
-    margin-right: 70%;
-  }
   .alink-contact:hover{
     background-color: #149279 !important;
     color: white;
