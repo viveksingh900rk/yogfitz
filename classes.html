@@ -11,6 +11,15 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://unpkg.com/scrollreveal"></script>
 
+  <!-- navbar imports -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="about.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <!-- navbar import ends -->
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>
@@ -22,7 +31,52 @@
 </head>
 <body>
  
-  <div id="includedNavbar"></div>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light main-header sticky-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand logo-size"  href="index.html">
+            <img src="assets/logo.png" alt="">
+            <h3 style="margin-top: 14px; margin-left: 5px;">YOGFITZ</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto our-primary-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="Memebership.html">Membership</a></li>
+                <li><a href="Stories.html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <div class="header-info d-flex align-items-center">
+                <div class="header-search">
+
+                </div>
+                <div class="header-call clearfix">
+                    <div class="header-call-icon float-left mr-3 h-100">
+                        <span> <i class="fas fa-phone-volume"></i> </span>
+                    </div>
+                    <div class="header-call-info">
+                        <span class="d-block">Call Now</span>
+                        <a class="d-block" href="tel:+15143125678">+1 (514) 312-5678</a>
+                    </div>
+                </div>
+                <div class="header-button">
+                    <a href="Contact.html#contactform" class="btn btn-primary">Enroll Now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</nav>
   
   <div id="carouselExampleIndicators" class="carousel slide m-b-5 " data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -154,7 +208,7 @@
     </body>
 
 
-  <script src="main.js"></script>
+  <script src="footer.js"></script>
 </body>
 
 </html>

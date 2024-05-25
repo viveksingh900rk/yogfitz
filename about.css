@@ -675,3 +675,32 @@ ul.our-primary-menu li:hover ul{
     background-color: #149279 !important;
     border-color: #149279 !important;
 }
+
+body .btn-primary-contact {
+    background-color: #4220ce !important;
+    color: var(--white);
+    padding: 10px 40px;
+    font-size: 16px;
+
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary-contact:hover{
+    border-color: #111;
+}
+body .btn-primary-contact::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #149279 !important;
+    border-color: #149279 !important;
+
+    z-index: -1;
+    transition: .3s;
+}
+body .btn-primary-contact:hover::after{
+    width: 100%;
+}
