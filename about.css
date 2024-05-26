@@ -45,6 +45,9 @@ body .btn-primary::after{
 body .btn-primary:hover::after{
     width: 100%;
 }
+.green-color{
+    color: #24d366;
+}
 
 /* Menu */
 ul.our-primary-menu li a{
@@ -704,3 +707,10 @@ body .btn-primary-contact::after{
 body .btn-primary-contact:hover::after{
     width: 100%;
 }
+
+
+
+
+
+
+
