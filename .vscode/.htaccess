@@ -1,0 +1,33 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+# Redirect /contact to Contact.html
+RewriteRule ^contact/?$ Contact.html [L]
+
+# Redirect /membership to Membership.html
+RewriteRule ^membership/?$ Membership.html [L]
+
+# Redirect /about to Stories.html
+RewriteRule ^about/?$ Stories.html [L]
+
+# Redirect /blog to Blog.html
+RewriteRule ^blog/?$ Blog.html [L]
+
+# Redirect /classes to classes.html
+RewriteRule ^classes/?$ classes.html [L]
+
+# Redirect /index.html or /index to /home
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(?:\.html)?\s [NC]
+RewriteRule ^index(?:\.html)?$ /home [R=301,L]
+
+# Internally rewrite /home to /index.html
+RewriteRule ^home/?$ index.html [L]
+
+# Redirect requests with .html to clean URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Rewrite clean URL to .html internally
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L,QSA]
